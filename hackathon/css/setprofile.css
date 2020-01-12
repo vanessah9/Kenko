@@ -1,0 +1,133 @@
+.setprofile-bg {
+    position: fixed;
+    z-index: -2;
+    left: 0px;
+    top: 0px;
+    /* background-image: url('../img/login bg.png'); */
+}
+
+.welcome-text {
+    /* font-family: Arial; */
+
+    position: absolute;
+
+    left: 200px;
+    top: 160px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: white;
+
+
+}
+
+.gender {
+    position: fixed;
+    width: 115px;
+    height: 28px;
+    left: 280px;
+    top: 380px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: white;
+
+}
+
+.gender-options {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: white;
+
+    position: fixed;
+    left: 500px;
+    top: 400px;
+
+}
+
+input[type="radio"]{
+    margin: 0 50px 0 50px;
+  }
+
+#circle {
+    margin: 20px auto;
+
+    border-radius: 200px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 1000px;
+    top: 120px;
+    
+    background: rgba(132, 224, 109);
+    z-index: 2;
+}
+
+#circle img {
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    left: 1000px;
+    top: 140px;
+}
+.dob {
+    position: fixed;
+    /* width: 115px;
+    height: 28px; */
+    left: 240px;
+    top: 500px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: white;
+}
+
+.birthday {
+    position: fixed;
+    top: 525px;
+    left: 550px;
+    width: 500px;
+}
+
+.registerbtn {
+    background-color: #677fbf;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    position: fixed;
+    left: 930px;
+    top: 600px;
+  
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+

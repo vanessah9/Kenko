@@ -1,0 +1,83 @@
+.setprofile-bg {
+    position: fixed;
+    z-index: -2;
+    left: 0px;
+    top: 0px;
+    /* background-image: url('../img/login bg.png'); */
+}
+
+.q1 {
+    position: fixed;
+    left: 280px;
+    top: 170px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+
+    color: white;
+}
+
+#circle {
+    margin: 20px auto;
+
+    border-radius: 200px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 1000px;
+    top: 120px;
+    
+    background: rgba(132, 224, 109);
+    z-index: 2;
+    background-image: url(../img/logo.png);
+}
+
+#circle img {
+    position: fixed;
+    width: 130px;
+    height: 130px;
+    left: 1000px;
+    top: 140px;
+}
+input[list]
+{
+    margin-left:auto;
+    margin-right:auto;
+
+
+    background: #D2E9FF;
+    padding: 20px 20px 20px 20px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+
+    position: fixed;
+    left: 280px;
+    top: 330px;
+    width: 600px;
+}
+
+
+
+
+.nextbtn {
+    background-color: #677fbf;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    position: fixed;
+    left: 995px;
+    top: 330px;
+  
+  }
+  
+  .nextbtn:hover {
+    opacity:1;
+  }
